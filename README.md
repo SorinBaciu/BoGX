@@ -3,6 +3,7 @@
   
   BGT is a web application which allows users to visit the „Dimitrie Brandza” botanical garden from Bucharest in a virtual manner. The name of the project stands for "Botanical Garden Tour" and the main purpose for the website is to help people from everywhere to visit the botanical garden. 
   The user can see the exhibits in different sections, read information about the plants present in the greenhouse, find out about the historical information, can access the virtual tour and also can see the contact details of the botanical garden.
+  </p>
 
  ## Application story 
   
