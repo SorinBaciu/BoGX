@@ -5,12 +5,14 @@
   The user can see the exhibits in different sections, read information about the plants present in the greenhouse, find out about the historical information, can access the virtual tour and also can see the contact details of the botanical garden.
   </p>
 
+<p allign = "justify">
+  
  ## Application story 
-  <p allign = "justify">
+  
 BGT is a web application which allows the users to access more information about the exhibits from the „Dimitrie Brandza” botanical garden. After accessing the website URL, the user will be redirected to the "Home" page where he can see the menu on the left side of the screen. The user is able to be part of a virtual tour of the botanical garden exhibits without paying any ticket. In order to do this, he has to click on the "Virtual tour" tab from the main menu. Along with this option, the visitor has the possibility to access other information using the main menu.
    
-  </p>
-  <p allign = "justify">
+ 
+  
   ## Website Wireframes
   The skeleton plan of a website can be broken down into three components: information design, navigation design, and interface design. Page layout is where these components come together, while wireframing is what depicts the relationship between these components.
   
