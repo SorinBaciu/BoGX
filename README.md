@@ -1,11 +1,13 @@
 # BGT 
-  BGT is a web application which allows users to visit the „Anastasie Fătu” botanical garden from Iasi in a virtual manner. The name of the project stands for "Botanical Garden Tour" and the main purpose for the website is to help people from everywhere to visit the botanical garden from Iasi. 
-  The user can see the exhibits in different sections, read information about the plants present in the greenhouse, find out about the historical information of the botanical garden, see the latest announcements and also has the opportunity to consult the price list. Users can offer suggestions on what they want to see or what information they would like to know and, at the same time, be up to date with the latest publications.
+<p allign = "justify">
+  
+  BGT is a web application which allows users to visit the „Dimitrie Brandza” botanical garden from Bucharest in a virtual manner. The name of the project stands for "Botanical Garden Tour" and the main purpose for the website is to help people from everywhere to visit the botanical garden. 
+  The user can see the exhibits in different sections, read information about the plants present in the greenhouse, find out about the historical information, can access the virtual tour and also can see the contact details of the botanical garden.
 
  ## Application story 
   
-  BGT is an web application which allows the users to access more information about the exhibits from the „Anastasie Fătu” botanical garden. After accesing the website URL, the user will be redirected to the "Home" page where he has the option to choose the language in which he want the information to be from the website. The user is able to be part of a virtual tour of the botanical garden exhibits without paying any ticket. In rder to do this, he has to click on the "Botanicalgarden tour" tab from the main menu. On the "Map" page, he can choose as well what section he wants to visit first. All the exhibits information willbe displayed along with some photos.
-   On the "Review & Suggestions" tab, he can express his opinion about the experience he had within the application. If he wants to be up to date on everything that will happen, he has to go to the "Publications" page. All users have the option the see the laste announcements by clicking on the "Publications" page. They can also see the prices and the "Scientific manifestations" regarding the botanical garden activity.
+BGT is a web application which allows the users to access more information about the exhibits from the „Dimitrie Brandza” botanical garden. After accessing the website URL, the user will be redirected to the "Home" page where he can see the menu on the left side of the screen. The user is able to be part of a virtual tour of the botanical garden exhibits without paying any ticket. In order to do this, he has to click on the "Virtual tour" tab from the main menu. Along with this option, the visitor has the possibility to access other information using the main menu.
+   
   
   
   ## Website Wireframes
@@ -21,7 +23,8 @@
   
   *Navigation design* 
 
-![StructureDiagram](https://user-images.githubusercontent.com/33698972/100152674-b8d23000-2eab-11eb-8b54-6eecc315fb36.png)
+![StructureDiagram](https://user-images.githubusercontent.com/33698972/103570205-54a28300-4ed1-11eb-867f-c45b18dc16b9.png)
+
 
 
 The users will be able to go back and forth through the menu options. 
@@ -30,6 +33,5 @@ The users will be able to go back and forth through the menu options.
 User interface design includes selecting and arranging interface elements to enable users to interact with the functionality of the system. Common elements found in interface design are action buttons and text fields.
 
 
-
-
+</p>
 
