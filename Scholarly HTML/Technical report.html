@@ -35,9 +35,18 @@
 	    <h1>&emsp; &emsp; <a href="#css" ; style="color: #7272FE; margin-left:100px">3.5. Javascript</a></h1>
 	        <h1>&emsp; &emsp;<a href="#translate-bot" ; style="color: #7272FE; margin-left:100px">3.6. Instant Translate bot</a></h1>
 	    <h1>&emsp; &emsp;<a href="#server" ; style="color: #7272FE; margin-left:100px">3.7. Web Sever</a></h1>
+	   <h1>&emsp; &emsp;<a href="#server" ; style="color: #7272FE; margin-left:100px">3.8. Orbix360</a></h1>
 			       </h1>
     <h1><a href="#references" ; style="color: #7272FE; margin-left:100px; text-decoration: none">4. References</a></h1>
-    <h1><a href="#authors" ; style="color: #7272FE; margin-left:100px;  text-decoration: none">5. Authors</a></h1>
+	
+	        <div id="app_info">
+            <h2>Authors</h2>
+                <p class="ref_par">Baciu Sorin</p>
+                <p class="ref_par">Leonte Anca(cas. Damir)</p>
+                <p class="ref_par">Titi Maria</p>
+            <h2>Discussion Group</h2>
+                <a href="https://github.com/SorinBaciu/BoGX" target="_blank"><p class="ref_par">GitHub Repository</p></a>
+        </div>
 
     <h2 id="abstract" style="color: #5e9ca0">1. Abstract</h2>
 
@@ -47,7 +56,7 @@
 
       <h2 id="introduction" style="color: #5e9ca0">2. Introduction</h2>
       <article style="line-height: 30px; margin-right: 50px">
-        <p> The purpose of the web application is to assist the visitor during a botanical garden tour. Gives the possibility to access more information about the exhibits from the „Anastasie Fătu” botanical garden.
+        <p> The purpose of the web application is to assist the visitor during a botanical garden tour. Gives the possibility to access more information about the exhibits from the botanical garden, presented through pictures or videos. 
 		   <br>
 
 
@@ -58,15 +67,18 @@
 	      
         <h2 style="color: #7272FE" id="qr-code">3.1. Web application structure</h2>
 	      
-	     <p>  The BGT web application has the following elements on the Menu: : Home/History/Botanical garden tour/Map/Publications/Taxes/Review & Suggestions/Scientific manifestations. Each page will have it's particular elements and opions.</p>
-	
+	     <p>  The BGT web application has the following elements on the Menu: : Home/About/Tour Dates/Presentations/Virtual Tour/History/Contact. Each page will have it's particular elements and options.
+	      The visitor is be able to access every page and thecontaining information. The pages an accesses separately, unrelated to each other. The Presentations page offers the possibility to access more information in one place </p>
+
+	      
 	      <ul>
-                <li>The Home page will be the one that wthe user will be redirected to after accessing the website URL.</li>
-                <li>On the History page the user can find out more information about the botanical garden history.</li>
-			<li>The user can read relevant information also by accesing the Publications and the Scientific manifestations pages.</li>
-            <li>To do a virtual tour of the botanical garden, the ways are through the Botanical garden tour page or the Map page. The user has the possibility to choose what section he wants to visit first. On each section, the user will find information about all the exhibits encountered there. </li>
-                 <li>Taxes page helps the user to find out the prices related to the service that he is interested in.</li>
-			<li> To improve the experience on the site, users have the option to leave a review or offer a suggestion on how we can improve the services offered.</li>
+                <li>The Home page will be the one that wthe user will be redirected to after accessing the website URL. It cointains the main menu on the left side of the screen and in the center can be seen a carousel with images illustrating the botanical garden and its attractions.</li>
+                <li>The About page will present the general information regarding to the activity of the botanical garden.</li>
+		 <li>On Tour dates, the visitor is informed with information related to the tour dates. Dates on which the tours can be made in person on the actual location having a specialized guide. Hours and days and also the name and contact details of the guid along with the new rules regrding the covid-19.</li>
+		<li>Presentations displayes differentiated information based on different sections of the attractions from the botanical garden. (e.g. rare plants sector, etc.)</li>
+                <li>To do a virtual tour of the botanical garden, the visitor has to access the Virtual tour. </li>
+                 <li>Visitors will be able to view a detailed description of the History of the botanical garden, where all the important events of this institution are captured.</li>
+		<li> Details regarding to the ways that any person can contact the staff of the botanical garden can be found in the Contact page.</li>
                    
 	      </ul>
 	      
@@ -74,8 +86,8 @@
         <h2 style="color: #7272FE" id="qr-code">3.2. HTML5 </h2>
 
 
-        <p>HTML is a markup language used for structuring and presenting content on the World Wide Web. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. 
-        HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves, and rationalizes the markup available for documents and introduces markup and application programming interfaces (APIs) for complex web applications.</p>
+        <p>The major part of the website is based on the known language HTML. As we may already know, "HTML is a markup language used for structuring and presenting content on the World Wide Web. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items." ( *,HTML basics, accessed from https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) 
+        "HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves, and rationalizes the markup available for documents and introduces markup and application programming interfaces (APIs) for complex web applications." (Vito Gentile,HTML5, accessed from https://www.codemotion.com/magazine/Glossary/html5/)</p>
 		
 		<h2 style="color: #7272FE" id="rfid">3.3. CSS</h2>
 
@@ -91,7 +103,7 @@
 
         <h2 style="color: #7272FE" id="database">3.5. Javascript</h2>
 
-        <p> Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.   </p>
+        <p> Alongside HTML and CSS, "JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it." (*, JavaScript, accessedfrom https://en.wikipedia.org/wiki/JavaScript)   </p>
 
         <h2 style="color: #7272FE" ; id="translate-bot">3.6. Instant Translate bot</h2>
 
@@ -102,7 +114,12 @@
         <p>The server that we are going to use is Apache Web Server. The source code of Apache is available for free to anyone and no license is required and does our life better and easier. Is easy to install, is highly reliable and performs better.</p>
 		<p>The application has one API between the Server and the application interface. This API will contain methods for Get, Post, Put and Delete and will have a json format. We have also another API that will retrieve data from the external site. The format will also be json and contains only in Get methods.</p>
 		
-      </article>
+        <h2 style="color: #7272FE" ; id="server">3.8. Orbix360</h2>
+
+        <p>In order to do the virtual tour, we will use the open source software named Orbix360 which allows us to import images of the botanical garden and display them into a tour manner. This software provides users with various elements that can be used to offer visitors a pleasant experience.</p>
+		    
+	    
+	    </article>
   </section>
 
  
@@ -110,21 +127,16 @@
   <section>
     <h2 style="color: #5e9ca0" id="references">4. References</h2>
     <ol>
-     
+	    
+     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a> </li>
+      <li><a href="https://www.codemotion.com/magazine/Glossary/html5/">HTML5</a> </li>
+       <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> </li>
       <li><a href="https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js/">Why to use Node.js</a> </li>
       <li><a href="https://thereisabotforthat.com/bots/insttranslatebot">Instant Translate</a></li>
-	  <li><a href="https://www.kb.penguinbliss.com/?p=313">Apache Booster</a></li>
+      <li><a href="https://www.kb.penguinbliss.com/?p=313">Apache Booster</a></li>
     </ol>
   </section>
 
-  <section>
-    <h2 style="color: #5e9ca0" id="authors">5. Authors</h2>
-    <ol>
-      <li>BACIU G. SORIN </li>
-      <li>LEONTE V. ANCA-STEFANIA CAS. DAMIR</li>
-      <li>TITI D.V. MARIA-VIOLETA</li>
-    </ol>
-  </section>
 
 </body>
 
