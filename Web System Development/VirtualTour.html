@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Virtual Tour Page</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+          #map {
+        height: 100%;
+        width: 100%;
+      }
+
+    </style>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body style="background-color: #944e6c">
+    <div class="sidenav">
+      <a href="index.html" >Botanical Garden</a>
+      <br>
+      <a href="About.html">About</a>
+      <a href="TourDates.html">Tour Dates</a>
+      <a href="Presentations.html">Presentations</a>
+      <a href="VirtualTour.html"style="color:#06623b">Virtual Tour</a>
+      <a href="History.html">History</a>
+      <a href="Contact.html">Contact</a>
+      <br>
+      <br>
+      <br>
+      <a href="AdoptaTree.html">Adopt a Tree</a>
+
+    </div>
+    <div class="content">
+
+       <h1 style = "text-align:center"; class = "entry-title">Virtual Tour</h1>
+
+      <div id="map"> </div>
+
+      <script>
+        function initMap(){
+          var location = {lat:-25.363  , lng: 131.044};
+          var map = new google.maps.Map(document.getElementById("map"),{
+            zoom: 4,
+            center : location
+          });
+        }
+
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5wF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initMap"></script>
+
+
+    </div>
+
+  </body>
+</html>
